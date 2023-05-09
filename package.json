@@ -4,6 +4,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "jasmine": "^4.6.0"
+    "jasmine": "^4.6.0",
+    "karma": "^6.4.2",
+    "karma-jasmine": "^5.1.0"
   }
 }
