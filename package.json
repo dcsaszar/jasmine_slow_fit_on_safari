@@ -1,6 +1,7 @@
 {
   "name": "jasmine_slow_fit_on_safari",
   "scripts": {
+    "jasmine-browser": "jasmine-browser-runner serve",
     "karma": "karma start"
   },
   "dependencies": {
