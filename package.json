@@ -2,5 +2,8 @@
   "name": "jasmine_slow_fit_on_safari",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jasmine": "^4.6.0"
   }
 }
