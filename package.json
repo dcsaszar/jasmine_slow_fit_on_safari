@@ -1,10 +1,12 @@
 {
   "name": "jasmine_slow_fit_on_safari",
   "scripts": {
-    "jasmine-browser": "jasmine-browser-runner serve",
-    "karma": "karma start"
+    "start:jasmine-browser": "jasmine-browser-runner serve",
+    "start:karma": "karma start",
+    "start": "concurrently -P 'npm:start:*'"
   },
   "dependencies": {
+    "concurrently": "^8.2.2",
     "jasmine": "^5.2.0",
     "jasmine-browser": "^0.0.12",
     "jasmine-browser-runner": "^2.5.0",
