@@ -1,16 +1,11 @@
 {
   "srcDir": "src",
-  "srcFiles": [
-    "**/*.?(m)js"
-  ],
+  "srcFiles": ["**/*.?(m)js"],
   "specDir": "spec",
-  "specFiles": [
-    "**/*[Ss]pec.?(m)js"
-  ],
-  "helpers": [
-    "helpers/asyncAwait.js"
-  ],
+  "specFiles": ["**/*[Ss]pec.?(m)js"],
+  "helpers": ["helpers/asyncAwait.js"],
   "env": {
-    "random": true
+    "random": true,
+    "seed": 1234
   }
 }
